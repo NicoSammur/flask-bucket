@@ -6,10 +6,10 @@
 
 ### Setup database
 * ``$ python3``
-* ``
+* ```python
 from app import db
 db.create_all()
-exit()``
+exit()```
 
 ### run
 * ``$ python3 app.py``
