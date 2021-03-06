@@ -6,9 +6,9 @@
 * ``$ source venv/bin/activate``
 * ``$pip install -r requirements.txt``
 
-## Usage
+### Usage
 * Add .md files into ``/pages`` folder, and index and the html files will be available on ``/build`` once completed
-*
+
 ```markdown
 title: topic
 date: yyyy-mm-dd
@@ -17,8 +17,7 @@ category: category
 Something
 - a
 - b
-- c```
-
-
+- c
+```
 ### Generate html
 * ``$ python3 sitebuilder.py build``
